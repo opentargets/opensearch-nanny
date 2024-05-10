@@ -1,0 +1,10 @@
+[opensearch]
+health_url = "http://localhost:9200/_cluster/health"
+seconds_in_green_for_healthy = 5
+ticker_interval = 1
+
+[server]
+address = "0.0.0.0"
+port = 8080
+log_level = "debug"
+log_handler = "text"
